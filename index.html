@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Apply for the HOOD CABALS NFT whitelist."
+    />
+    <title>HOOD CABALS | Enter the Cabal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="HOOD CABALS home">
+        <span class="brand-mark">HC</span>
+        <span>HOOD CABALS</span>
+      </a>
+      <a
+        class="header-social"
+        data-x-profile
+        href="https://x.com/Hoodcabals"
+        target="_blank"
+        rel="noreferrer"
+        >@Hoodcabals <span aria-hidden="true">↗</span></a
+      >
+    </header>
+
+    <main id="top" class="layout">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="eyebrow">
+          <span class="status-dot"></span> WHITELIST ACCESS / 001
+        </div>
+        <h1 id="page-title">ENTER<br /><em>THE CABAL.</em></h1>
+        <p class="intro-copy">
+          A private 10,000 collection size for the ones who move quietly and build loudly.
+          Complete the access ritual to secure your place.
+        </p>
+        <div class="signal-line" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="edition-note">
+          <span>HOOD CABALS</span><span>GENESIS EDITION / 2026</span>
+        </div>
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+      </section>
+
+      <section class="application-panel" aria-labelledby="application-title">
+        <div class="panel-heading">
+          <div>
+            <p class="panel-kicker">APPLICATION FORM</p>
+            <h2 id="application-title">Claim your access.</h2>
+          </div>
+          <span class="panel-code">HOOD CABALS / WHITELIST</span>
+        </div>
+
+        <div class="progress" aria-label="Application progress">
+          <div class="progress-bar"><span id="progress-fill"></span></div>
+          <div class="progress-meta">
+            <span id="progress-label">01 / 04</span><span>REQUIRED STEPS</span>
+          </div>
+        </div>
+
+        <form id="whitelist-form" novalidate>
+          <fieldset class="step" data-step="1">
+            <legend>
+              <span class="step-number">01</span><span>Follow X</span>
+            </legend>
+            <p class="step-copy">
+              Follow <strong>@Hoodcabals</strong> on X to receive cabal
+              transmissions.
+            </p>
+            <a
+              class="action-link"
+              data-x-profile
+              href="https://x.com/Hoodcabals"
+              target="_blank"
+              rel="noreferrer"
+              >Open X profile <span aria-hidden="true">↗</span></a
+            >
+            <label for="x-username">X Username <span>*</span></label>
+            <input
+              id="x-username"
+              name="xUsername"
+              type="text"
+              placeholder="@yourusername"
+              autocomplete="username"
+              required
+            />
+            <small class="error" data-error-for="x-username"></small>
+          </fieldset>
+
+          <fieldset class="step" data-step="2">
+            <legend>
+              <span class="step-number">02</span><span>Like &amp; Retweet</span>
+            </legend>
+            <p class="step-copy">
+              Like &amp; Retweet the <strong>pinned post</strong>. Make your
+              signal visible.
+            </p>
+            <a
+              class="action-link"
+              data-pinned-post
+              href="https://x.com/Hoodcabals/status/2089650153703780788"
+              target="_blank"
+              rel="noreferrer"
+              >Open pinned post <span aria-hidden="true">↗</span></a
+            >
+            <label class="check-row" for="engagement-confirmed"
+              ><input
+                id="engagement-confirmed"
+                name="engagementConfirmed"
+                type="checkbox"
+                required
+              /><span class="fake-check" aria-hidden="true"></span
+              ><span
+                >I liked and retweeted the pinned post <b>*</b></span
+              ></label
+            >
+            <small class="error" data-error-for="engagement-confirmed"></small>
+          </fieldset>
+
+          <fieldset class="step" data-step="3">
+            <legend>
+              <span class="step-number">03</span><span>Tag 3 Friends</span>
+            </legend>
+            <p class="step-copy">
+              Tag <strong>3 friends</strong> in the pinned post. Bring your
+              circle into the underground.
+            </p>
+            <label for="post-link">X Post Link <span>*</span></label>
+            <input
+              id="post-link"
+              name="xPostLink"
+              type="url"
+              placeholder="https://x.com/..."
+              required
+            />
+            <small class="error" data-error-for="post-link"></small>
+          </fieldset>
+
+          <fieldset class="step" data-step="4">
+            <legend>
+              <span class="step-number">04</span><span>Robinhood Wallet</span>
+            </legend>
+            <p class="step-copy">Tell us where to route your genesis access.</p>
+            <label for="wallet-address"
+              >Robinhood Wallet Address <span>*</span></label
+            >
+            <input
+              id="wallet-address"
+              name="walletAddress"
+              type="text"
+              placeholder="Enter your Robinhood Wallet address"
+              autocomplete="off"
+              required
+            />
+            <small class="error" data-error-for="wallet-address"></small>
+          </fieldset>
+
+          <div class="form-footer">
+            <p class="privacy-note">
+              <span aria-hidden="true">◈</span> Your details stay within the
+              cabal.
+            </p>
+            <button id="submit-button" type="submit">
+              <span class="button-text">SUBMIT APPLICATION</span
+              ><span class="button-arrow" aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <p
+            class="form-status"
+            id="form-status"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+
+        <div class="success-state" id="success-state" hidden>
+          <span class="success-icon">✓</span>
+          <p class="panel-kicker">TRANSMISSION CONFIRMED</p>
+          <h2>APPLICATION<br /><em>RECEIVED.</em></h2>
+          <p>
+            Welcome to the Cabal. Your whitelist application has been recorded.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <span>HOOD CABALS © 2026</span><span>PRIVATE / BY INVITATION</span
+      ><span>08—2026</span>
+    </footer>
+    <script src="app.js" defer></script>
+  </body>
+</html>
