@@ -94,8 +94,14 @@ function updateProgress() {
   progressLabel.textContent = `${String(stepNumber).padStart(2, "0")} / 04`;
 }
 
-form.addEventListener("input", updateProgress);
-form.addEventListener("change", updateProgress);
+form.addEventListener("input", () => {
+  updateProgress();
+  formStatus.textContent = "";
+});
+form.addEventListener("change", () => {
+  updateProgress();
+  formStatus.textContent = "";
+});
 
 document.querySelector("#x-username").addEventListener("blur", (event) => {
   if (event.target.value.trim()) checkXUsername();
