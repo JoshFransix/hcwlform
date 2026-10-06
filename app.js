@@ -1,6 +1,6 @@
 const CONFIG = {
   xProfileUrl: "https://x.com/Hoodcabals",
-  pinnedPostUrl: "https://x.com/Hoodcabals/status/2089650153703780788",
+  pinnedPostUrl: "https://x.com/hoodcabals/status/2107529532567945701?s=46",
 };
 
 const form = document.querySelector("#whitelist-form");
